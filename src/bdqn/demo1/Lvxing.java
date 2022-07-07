@@ -1,4 +1,4 @@
-package bdqn.demo;
+package bdqn.demo1;
 
 import java.util.Scanner;
 

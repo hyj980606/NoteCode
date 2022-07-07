@@ -1,4 +1,4 @@
-package bdqn.demo;
+package bdqn.demo1;
 
 /*
 * 变量的命名规则：
@@ -6,6 +6,7 @@ package bdqn.demo;
 * */
 public class ZiYouXia {
     public static void main(String[] args) {
+
         //昵称
         String name = "北大青鸟";
 

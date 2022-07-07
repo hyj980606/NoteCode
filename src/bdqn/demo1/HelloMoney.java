@@ -1,4 +1,4 @@
-package bdqn.demo;
+package bdqn.demo1;
 /*
 * final定义常量只能赋值一次  定义常量并赋值  或者  定义常量后赋值
 * */
