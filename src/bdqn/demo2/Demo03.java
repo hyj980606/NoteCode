@@ -6,6 +6,7 @@ import java.util.Scanner;
 /*
 * 4、嵌套if选择结构
 * 使用嵌套if...else语句是合法的。也就是说你可以在另一个if或者else if语句中使用if或者else if语句。
+*
 *   if(布尔表达式 1){
 *       ////如果布尔表达式 1的值为true执行代码
 *       if(布尔表达式 2){
@@ -13,8 +14,8 @@ import java.util.Scanner;
 *       }
 *   }
 *
-*
 * */
+
 public class Demo03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
