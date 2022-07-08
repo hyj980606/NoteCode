@@ -26,7 +26,6 @@ import java.util.Scanner;
     }else{
         //如果布尔表达式的值为false
     }
-
 * */
 public class Demo01 {
     public static void main(String[] args) {
