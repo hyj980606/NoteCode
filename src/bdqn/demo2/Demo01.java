@@ -8,6 +8,7 @@ import java.util.Scanner;
     &&：短路与（两个操作数都是true，结果才是true）
     ||：短路或（两个操作数一个是true，结果才是true）
     ！：非（操作数为true，结果为false；操作数为false，结果为true）
+
 条件运算符：
     表达式1？表达式2：表达式3;
     如果表达式1值为true，则返回表达式2的值；
@@ -25,9 +26,6 @@ import java.util.Scanner;
         //如果布尔表达式的值为true
     }else{
         //如果布尔表达式的值为false
-
-
-
     }
 * */
 public class Demo01 {
