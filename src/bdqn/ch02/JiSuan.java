@@ -1,4 +1,4 @@
-package bdqn.demo1;
+package bdqn.ch02;
 
 public class JiSuan {
     public static void main(String[] args) {

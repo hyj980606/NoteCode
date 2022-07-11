@@ -1,4 +1,4 @@
-package bdqn.demo1;
+package bdqn.ch02;
 
 /*
 * 变量的命名规则：
