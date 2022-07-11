@@ -34,7 +34,7 @@ public class Demo02 {
             case 8:
             case 10:
             case 12:
-                System.out.println("都是31天");
+                System.out.println("31天");
                 break;
             case 2:
                 if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
