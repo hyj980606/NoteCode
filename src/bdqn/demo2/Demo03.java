@@ -13,8 +13,6 @@ import java.util.Scanner;
 *           ////如果布尔表达式 2的值为true执行代码
 *       }
 *   }
-*
-*
 * */
 
 public class Demo03 {
