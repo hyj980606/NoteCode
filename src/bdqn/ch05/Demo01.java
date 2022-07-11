@@ -4,7 +4,13 @@ import java.util.Scanner;
 
 /**
  * @ClassName Demo01
- * @Description                 循环
+ * @Description                 while循环
+ *             while循环是最基本的循环，它的结构为：
+ *                  while(布尔表达式){
+ *                      //循环内容
+ *                  }
+ *                  只要布尔表达式为true，循环就会一直执行下去。
+ *
  * @Author hyj
  * @Date 2022-07-11 14:48
  * @Version 1.0
