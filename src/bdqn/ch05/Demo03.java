@@ -15,7 +15,7 @@ public class Demo03 {
         while (i <= 20){
             if (i % 3 == 0){
                 System.out.println(i);
-                sum = i + sum;
+                sum = i + sum;      //sum+=i;
             }
             i++;
         }
