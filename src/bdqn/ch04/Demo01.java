@@ -20,8 +20,10 @@ import java.util.Scanner;
  *                          语句;
  *                          break;
  *                  }
- *              2、break:结束,跳出循环
- *              3、default:
+ *              2、break:主要用在循环语句或者switch语句中，用来跳出整个语句块
+ *                       break跳出最里层的循环，并且继续执行该循环下面的语句
+ *              3、default:switch语句可以包含一个default分支，该分支一般是switch语句的最后一个分支（可以在任何位置，
+ *                  但是建议在最后一个）。default在没有case语句的值和变量值相等的时候执行。default分支不需要break语句。
  *              4、比较switch和if选择结构
  *                  相同点：
  *                      都是用来处理
