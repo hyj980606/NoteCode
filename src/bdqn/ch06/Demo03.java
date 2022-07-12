@@ -16,11 +16,13 @@ public class Demo03 {
         int i = 0;
         Scanner input = new Scanner(System.in);
         System.out.print("请输入积分总数：");
-        int integral = input.nextInt();
+        int integral = input.nextInt();//200
         for (;integral >= 0;){
             System.out.println("当前剩余积分：" + integral + ",已有" + i + "位会员领取额外奖励！");
             integral = integral - 20;
             i++;
         }
+
+        /*for (int i=0,j=200;j>=0;i++, j-=20){}*/
     }
 }
