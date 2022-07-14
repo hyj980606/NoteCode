@@ -18,7 +18,7 @@ public class Demo04 {
         int sum = 0;
         Scanner input = new Scanner(System.in);
         for (int i = 1; i<=10;i++){
-            System.out.println("请输入第"+i+"班游船人数");
+            System.out.println("请输入第"+i+"班游船人数：");
             int num = input.nextInt();
             sum+=num;
             if (sum>5000){
