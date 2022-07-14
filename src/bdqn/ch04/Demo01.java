@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * @ClassName Demo01
- * @Description                 switch选择结构
+ * @Description       switch选择结构
  *              1、语法：
  *                  switch(表达式) {
  *                      case 常量1:
