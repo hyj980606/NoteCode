@@ -27,5 +27,13 @@ public class Demo04 {
             }
         }
         System.out.println("今日岛上人数："+sum);
+
+        /*for (int i=1;i<=5;i++){
+            if (i==3){
+                System.out.println("口渴了跑不动退出");
+                break;
+            }
+            System.out.println(i);
+        }*/
     }
 }
