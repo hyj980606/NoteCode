@@ -5,8 +5,9 @@ import java.util.Scanner;
 /**
  * @ClassName Demo04
  * @Description break作用是：
- *                  退出循环
- * @Author hyj98
+ *                  主要用在循环语句或者switch语句中，用来跳出整个语句块
+ *                  break跳出最里层的循环，并且继续执行该循环下面的语句
+ * @Author hyj
  * @Date 2022-07-14 14:43
  * @Version 1.0
  */
