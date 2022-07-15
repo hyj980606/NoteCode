@@ -21,11 +21,13 @@ public class Demo01 {
             System.out.print("请输入第"+(i+1)+"蛋糕名称:");
             names[i] = input.next();
         }
-        //先打印第四个蛋糕
+        //打印2~4蛋糕
         System.out.println("打印蛋糕名称：");
-        for (int i = 0;i<names.length;i++){
+        for (int i = 1;i<=3;i++){
             System.out.println(names[i]);
         }
+        /*//打印第四个蛋糕
+        System.out.println(names[3]);*/
 
         /*names[0] = "草莓蛋糕";
 
