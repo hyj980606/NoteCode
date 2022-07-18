@@ -6,6 +6,9 @@ import java.util.Scanner;
 /**
  * @ClassName Demo02
  * @Description 数组排序
+ *              语法格式
+ *                  Arrays.sort(数组名);
+ *              Java中只有从小到大排序的方法，没有从大到小的排序方法
  * @Author hyj
  * @Date 2022-07-18 13:49
  * @Version 1.0
