@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 /**
  * @ClassName PlanetTest
- * @Description TODO
- * @Author hyj98
+ * @Description
+ * @Author hyj
  * @Date 2022-07-21 15:10
  * @Version 1.0
  */
