@@ -2,7 +2,7 @@ package bdqn.ch12;
 
 /**
  * @ClassName Plane
- * @Description
+ * @Description 一个飞机
  * @Author hyj
  * @Date 2022-07-22 13:57
  * @Version 1.0
