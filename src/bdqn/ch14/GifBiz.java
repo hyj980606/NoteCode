@@ -25,4 +25,23 @@ public class GifBiz {
             System.out.println(names[i]);
         }
     }
+
+    /**
+     * 查找纪念品
+     * @param start 开始位置
+     * @param end   结束位置
+     * @param name  查找纪念品名称
+     * @return  找到为true未找到false
+     */
+    public boolean searchGif(int start,int end,String name){
+        boolean flag=false;
+        for (int i=start-1;i<end;i++){
+            if (names[i].equals(name)){
+                flag=true;
+                break;
+            }
+        }
+        return flag;
+    }
+
 }
