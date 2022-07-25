@@ -21,5 +21,19 @@ public class TestGifBiz {
         }
 
         gifBiz.show();
+
+        System.out.print("请输入开始查找位置：");
+        int start = input.nextInt();
+        System.out.print("请输入结束位置：");
+        int end = input.nextInt();
+        System.out.print("请输入纪念品名称：");
+        String name = input.next();
+
+        boolean flag = gifBiz.searchGif(start, end, name);
+        if (flag){
+            System.out.println("存在");
+        }else {
+            System.out.println("不存在");
+        }
     }
 }
