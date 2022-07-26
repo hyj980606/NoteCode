@@ -13,18 +13,23 @@ import java.util.Scanner;
 public class TestCalPrice {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("请输入商品价格：");
 
         CalPrice calPrice = new CalPrice();
 
         double[]moneys=new double[5];
+        System.out.println("请输入商品价格：");
         for (int i=0;i< moneys.length;i++){
             moneys[i] = input.nextDouble();
         }
+
         double avg = calPrice.getAvg(moneys);
         System.out.println(avg);
 
         double sum = calPrice.getSum(moneys);
         System.out.println(sum);
+
+
+        double max = calPrice.getMax(moneys);
+        System.out.println(max);
     }
 }
