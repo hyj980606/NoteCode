@@ -27,9 +27,21 @@ public class CalPrice {
 
     //求和
     public double getSum(double[] moneys){
+        sum=0;
         for (int i=0;i< moneys.length;i++){
             sum+=moneys[i];
         }
         return sum;
+    }
+
+    //最大值
+    public double getMax(double[] moneys){
+        double max=moneys[0];
+        for (int i=0;i<moneys.length;i++){
+            if (max<moneys[i]){
+                max=moneys[i];
+            }
+        }
+        return max;
     }
 }
